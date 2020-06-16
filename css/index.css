@@ -70,6 +70,15 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:3%;
+}
+nav a{
+    color:black;
+}
 
 .top-content {
     display: flex;
@@ -101,15 +110,45 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box{
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
+    background-color: black;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.middle-content .boxes .box:nth-child(1){
+    background-color: teal;
+}
+.middle-content .boxes .box:nth-child(2){
+    background-color: gold;
+}
+.middle-content .boxes .box:nth-child(3){
+    background-color: cadetblue;
+}
+.middle-content .boxes .box:nth-child(4){
+    background-color: coral;
+}
+.middle-content .boxes .box:nth-child(5){
+    background-color: crimson;
+}
+.middle-content .boxes .box:nth-child(6){
+    background-color: forestgreen;
+}
+.middle-content .boxes .box:nth-child(7){
+    background-color: darkorchid;
+}
+.middle-content .boxes .box:nth-child(8){
+    background-color: hotpink;
+}
+.middle-content .boxes .box:nth-child(9){
+    background-color: indigo;
+}
+.middle-content .boxes .box:nth-child(10){
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -129,6 +168,8 @@ p {
 footer {
     width: 100%;
     background: black;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer nav {
@@ -143,4 +184,37 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.about-top-text{
+    margin:3% 0% 3% 0%;
+}
+.about-boxes-section{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top:black 1px dashed;
+    margin-top:5%;
+
+}
+.middle-about-boxes{
+    width:46%;
+    border-bottom:black 1px dashed;
+    padding:2%;
+    
+}
+.middle-about-boxes img{
+    width:100%;
+}
+.middle-about-boxes button{
+    border-radius:10%;
+    padding:2%;
+    background-color: white;
+    color:black;
+    border:black 1px solid;
+    width:30%;
+    margin:2%;
+    margin-left:0%;
+}
+.about-bottom-text{
+    margin:5% 0% 5% 0%;
 }
